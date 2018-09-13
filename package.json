@@ -1,0 +1,31 @@
+{
+  "name": "pre-view",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nuxt.js Test",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "S.Hwang",
+    "email": "lotsofluck4m@gmail.com"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "precommit": "yarn sort && yarn lint",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "sort": "sort-package-json",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "sort-package-json": "^1.15.0"
+  }
+}

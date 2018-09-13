@@ -1,0 +1,18 @@
+# IDE
+.idea
+
+# cache
+.cache
+
+# dependencies
+node_modules
+
+# logs
+*.log
+logs/
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
